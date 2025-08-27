@@ -1,0 +1,11 @@
+name: GitHub actions test job
+
+# The base action to github which executes the task!
+on: push
+
+# All the actions that are set to run!
+jobs: 
+    job_1:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo hello world!
