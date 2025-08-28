@@ -1,0 +1,9 @@
+[project]
+name = "temp-proj"
+version = "0.1.0"
+description = "Simple little sandbox project."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pytest"
+]
